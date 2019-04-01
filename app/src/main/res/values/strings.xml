@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Feature Flag</string>
+    <string name="greeting_pt_br">Olá, mundo!</string>
+    <string name="greeting_en_us">Hello, world!</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings_greet_in_pt_br_title">Greeting language</string>
+    <string name="settings_greet_in_pt_br_summary">Greet the user in pt-br</string>
+</resources>

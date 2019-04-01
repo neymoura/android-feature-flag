@@ -1,0 +1,10 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+            android:key="greet_in_pt_br"
+            android:title="@string/settings_greet_in_pt_br_title"
+            android:summary="@string/settings_greet_in_pt_br_summary"
+            android:defaultValue="true"/>
+
+</PreferenceScreen>
