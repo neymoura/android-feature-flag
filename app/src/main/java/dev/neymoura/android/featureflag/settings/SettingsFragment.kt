@@ -1,14 +1,11 @@
 package dev.neymoura.android.featureflag.settings
 
-import android.preference.PreferenceFragment
 import android.os.Bundle
+import androidx.preference.PreferenceFragmentCompat
 import dev.neymoura.android.featureflag.R
 
-class SettingsFragment : PreferenceFragment() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-        // Load the preferences from an XML resource
-        addPreferencesFromResource(R.xml.settings_feature_flags)
+class SettingsFragment : PreferenceFragmentCompat() {
+    override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
+        setPreferencesFromResource(R.xml.settings_feature_flags, rootKey)
     }
 }
